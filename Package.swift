@@ -5,7 +5,7 @@ import PackageDescription
  let package = Package(
      name: "RxWebKit",
      platforms: [
-         .iOS(.v12)
+         .iOS(.v9)
      ],
      products: [
          .library(name: "RxWebKit", targets: ["RxWebKit"])
