@@ -12,7 +12,7 @@ import PackageDescription
      ],
      dependencies: [
          .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "5.0.0")),
-         .package(url: "https://github.com/mukesh-mt/Quick.git", .branchItem("mindtickle")),
+         .package(url: "https://github.com/mukesh-mt/Quick.git", .exactItem("6.1.0")),
          .package(url: "https://github.com/Quick/Nimble.git", .exactItem("9.0.0"))
      ],
      targets: [
