@@ -11,9 +11,9 @@ import PackageDescription
          .library(name: "RxWebKit", targets: ["RxWebKit"])
      ],
      dependencies: [
-         .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "5.0.0")),
-         .package(url: "https://github.com/mukesh-mt/Quick.git", .exactItem("6.1.0")),
-         .package(url: "https://github.com/Quick/Nimble.git", .exactItem("9.0.0"))
+        .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "5.0.0")),
+        .package(url: "https://github.com/mukesh-mt/Quick.git", .upToNextMajor(from:"6.0.0")),
+        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from:"11.0.0"))
      ],
      targets: [
          .target(
